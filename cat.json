@@ -1,0 +1,166 @@
+[
+    {
+      "id": 1,
+      "image": "images/sleepingcat.jpg",
+      "comment": "I know you wanna to chat with me, jenis kucing apa yang kamu suka?",
+      "answer-1": "Black Cat",
+      "goto-1": 2,
+      "answer-2": "White Cat",
+      "goto-2": 2
+    },
+    {
+      "id": 2,
+      "image": "images/angrycat.jpeg",
+      "comment": "Dude! You are So racist.",
+      "answer-1": "I'm Sorry!",
+      "goto-1": 3,
+      "answer-2": "You asked that question!",
+      "goto-2": 3
+    },
+    {
+      "id": 3,
+      "image": "images/killercat.jpeg",
+      "comment": "That Question was written by ben I'll explain him very well Anyway what are you doing? ",
+      "answer-1": "I'm just chilling",
+      "answer-2": "I'm working",
+      "goto-2": 5,
+      "goto-1": 4
+    },
+    {
+      "id": 5,
+      "image" : "images/cc.jpeg",
+      "comment": "I see, I see. So you are a workaholic. But you know what? You should take a break sometimes. You can spend time with me",
+      "answer-1": "I will",
+      "goto-1": 6
+    },
+    {
+      "id": 4,
+      "image" : "images/secretcat.jpeg",
+      "comment": "Ohh! But Bro I wanna tell you something. Don't talk with ben, you become like her lazy",
+      "answer-1": "Ok, I won't",
+      "answer-2": "I will talk",
+      "goto-2":7,
+      "goto-1" : 6
+    },
+    {
+        "id": 7,
+        "image": "images/killercatwithknife.jpeg",
+        "comment": "Still want to talk to him",
+        "answer-1": "No I am Not.",
+        "goto-1": 6
+    },
+    {
+        "id": 6,
+        "image": "images/witchcat.jpeg",  
+        "comment": "You are Good Girl, do you fear from dark",
+        "answer-1": "Yeah! A lot ",
+        "goto-1": 8,
+        "answer-2": "No! I am strong girl",
+        "goto-2": 8
+    },
+    {
+        "id": 8,
+        "type": "video",
+        "videoSrc": "images/horror.mp4",
+        "duration": 10000,
+        "goto": 9
+      },
+      {
+        "id": 9,
+        "image": "images/laughcat.jpeg",
+        "comment": "You Feared!  ha ha ha",
+        "answer-1": "No! I am strong",
+        "goto-1": 10,
+        "answer-2": "Yes! I am scared",
+        "goto-2": 10
+      },
+        {
+          "id": 10,
+          "image": "images/hungry_cat.jpeg",
+          "comment": "Wait... did you touch my food bowl?",
+          "answer-1": "Nooo... maybe 👀",
+          "goto-1": 11,
+          "answer-2": "Yes, but it was empty!",
+          "goto-2": 12
+        },
+        {
+          "id": 11,
+          "image": "images/sus_angry_kitty.jpeg",
+          "comment": "Hmm. I'm watching you, snack thief.",
+          "answer-1": "I swear I'm innocent!",
+          "goto-1": 13,
+          "answer-2": "Okay, okay... I ate one kibble.",
+          "goto-2": 12
+        },
+        {
+          "id": 12,
+          "image": "images/paniccat.jpeg",
+          "comment": "UNACCEPTABLE. You’ve triggered cat wrath mode!",
+          "answer-1": "Hide under the bed",
+          "goto-1": 14,
+          "answer-2": "Offer catnip as peace",
+          "goto-2": 15
+        },
+        {
+          "id": 13,
+          "image": "images/detcat.jpeg",
+          "comment": "Alright, I'll let you off with a warning... this time.",
+          "answer-1": "You're the best, Sheriff Whiskers",
+          "goto-1": 16,
+          "answer-2": "Does this mean we’re friends?",
+          "goto-2": 15
+        },
+        {
+          "id": 14,
+          "image": "images/firing.gif",
+          "comment": "Nice try, but I saw where you hid. Prepare the laser pointer duel!",
+          "answer-1": "I ACCEPT!",
+          "goto-1": 16,
+          "answer-2": "Please... mercy 🙏",
+          "goto-2": 15
+        },
+        {
+          "id": 15,
+          "image": "images/cat_high.jpeg",
+          "comment": "Ahhh... the sweet scent of catnip. All is forgiven.",
+          "answer-1": "Wanna vibe together?",
+          "goto-1": 17,
+          "answer-2": "I’ll bring more next time!",
+          "goto-2": 17
+        },
+        {
+          "id": 16,
+          "image": "images/sigmacat.jpeg",
+          "comment": "You've earned 1 respect point. Don’t waste it.",
+          "answer-1": "Understood, Master Meow",
+          "goto-1": 18,
+          "answer-2": "Yessir 😼",
+          "goto-2": 18
+        },
+        {
+          "id": 17,
+          "image": "images/cat_party.jpeg",
+          "comment": "It’s paw-ty time! Bring the tuna, let’s dance!",
+          "answer-1": "DJ Catnip on the beat!",
+          "goto-1": 18,
+          "answer-2": "I'm bringing glow sticks 😎",
+          "goto-2": 18
+        },
+        {
+          "id": 18,
+          "image": "images/cat_sunglasses.jpeg",
+          "comment": "This was fun, bro. Next episode soon... maybe",
+          "answer-1": "I'll be waiting 🐾",
+          "goto-1": 19,
+          "answer-2": "Can’t wait, boss cat!",
+          "goto-2": 19
+        },
+        {
+            "id": 19,
+            "image": "images/verypolite.jpeg",
+            "comment": "Ohh so cute, I will explain ben with very polit way to do work, so that i can meet you again  Bye-Bye",
+            "answer-1": "Bye-Bye",
+            "goto-1": 1
+        }
+  ]
+  
